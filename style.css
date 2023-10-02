@@ -1,0 +1,165 @@
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&family=Young+Serif&display=swap');
+
+ *{
+    font-family: 'Raleway', sans-serif;
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+
+    justify-content: center;
+}
+
+
+section {
+    padding: 40px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.text1{
+    font-size: 50px;
+    text-align: center;
+}
+
+span{
+    color: green;
+}
+
+
+.main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.row{
+    margin-top: 2%;
+    max-width: max-content;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 600px){
+
+    .nav{
+        width: 1000%;
+    }
+
+    .main{
+        width: 100%;
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
+    
+}
+
+.pic{
+width: 400px;
+ }
+
+.txt{  
+    text-align: center;
+    margin: 0 auto 40px;
+    font-size: 80px;
+    width: 1500px;
+
+}
+
+.paragraph{
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    padding: 0;
+    width: 1500px;
+    line-height: 40px;
+}
+
+
+
+.mc{
+    margin: auto 0 auto 150px;
+    width: 200px;
+    height: 200px;
+}
+.ccs{
+    margin: auto 150px auto 0;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.projects{
+    margin-top: 0%;
+    font-size: 80px;
+    margin: 1%;
+    padding-bottom: 0%;
+}
+
+
+
+
+#back-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #back-to-top-btn:hover {
+    background-color: #0056b3;
+  }
