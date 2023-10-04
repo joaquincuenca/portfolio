@@ -148,3 +148,20 @@ width: 400px;
   #back-to-top-btn:hover {
     background-color: #0056b3;
   }
+
+@media(max-width: 600px){
+
+    .nav{
+        width: 1000%;
+    }
+
+    .main{
+        width: 100%;
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }   
+
+}
+
